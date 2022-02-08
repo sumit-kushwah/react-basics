@@ -16,12 +16,32 @@ import EventBindOne from "./event-handling/eventBindOne";
 import Parent from "./event-handling/parent-child/Parent";
 import UserGreeting from "./conditional-rendering/UserGreeting";
 import UserGreetingOne from "./conditional-rendering/UserGreetingOne";
+import NameListTwo from "./list-rendering/namedTwo";
+import NameListThree from "./list-rendering/namedThree";
+import NameListFour from "./list-rendering/namedFour";
+import Stylesheet from "./styling/stylesheet";
+import Inline from "./styling/inline";
+import Module from "./styling/module";
+import Form from "./form-handling/form";
+import LifeCycleA from "./life-cycle-methods/LifeCycleA";
+import {Fetch} from "./ajax-calls/fetch";
+import AxiosApi from "./ajax-calls/axiosApi";
+import FakeUserList from "./ajax-calls/fakeUserList";
 
 
 function App() {
   return (
     <div className="container">
-        <UserGreetingOne/>
+        <FakeUserList/>
+        {/*<AxiosApi/>*/}
+        {/*<Fetch/>*/}
+        {/*<LifeCycleA/>*/}
+        {/*<Form/>*/}
+        {/*<Inline/>*/}
+        {/*<Stylesheet primary={true}/>*/}
+        {/*<Module/>*/}
+        {/*<NameListFour/>*/}
+        {/*<UserGreetingOne/>*/}
         {/*<Parent/>*/}
         {/*<EventBindOne/>*/}
         {/*<ClassClick/>*/}
