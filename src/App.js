@@ -27,12 +27,36 @@ import LifeCycleA from "./life-cycle-methods/LifeCycleA";
 import {Fetch} from "./ajax-calls/fetch";
 import AxiosApi from "./ajax-calls/axiosApi";
 import FakeUserList from "./ajax-calls/fakeUserList";
+import MongoStudent from "./ajax-calls/mongoStudent";
+import SqlStudent from "./ajax-calls/sqlStudent";
+import Routing from "./routing/routing";
+import ClassCounter from "./react-hooks/classCounter";
+import HookCounter from "./react-hooks/hook-counter";
+import HookWithObject from "./react-hooks/hook-with-object";
+import HookWithArray from "./react-hooks/hook-with-array";
+import ApiHook from "./react-hooks/api-hook";
+import {ClickCounter} from "./higher-order-component/click-counter";
+import HoverCounter from "./higher-order-component/hover-counter";
+import InputCounter from "./higher-order-component/input-counter";
+import UpdateCounter from "./higher-order-component/update-counter";
 
 
 function App() {
   return (
     <div className="container">
-        <FakeUserList/>
+        {/*<UpdateCounter/>*/}
+        {/*<ClickCounter/>*/}
+        {/*<HoverCounter/>*/}
+        <InputCounter/>
+        {/*<ApiHook/>*/}
+        {/*<HookWithArray/>*/}
+        {/*<HookWithObject/>*/}
+        {/*<HookCounter/>*/}
+        {/*<ClassCounter/>*/}
+        {/*<Routing/>*/}
+        {/*<SqlStudent/>*/}
+        {/*<MongoStudent/>*/}
+        {/*<FakeUserList/>*/}
         {/*<AxiosApi/>*/}
         {/*<Fetch/>*/}
         {/*<LifeCycleA/>*/}
